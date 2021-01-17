@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TeenNumberChecker {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         int num1, num2, num3, num4;
         Scanner scanner = new Scanner(System.in);
 
@@ -21,7 +21,7 @@ public class TeenNumberChecker {
         num4 = scanner.nextInt();
 
         System.out.println(isTeen(num4));
-    }
+    }*/
 
     public static boolean hasTeen(int age1, int age2, int age3) {
         if ((13 <= age1 && 19 >= age1) ||
